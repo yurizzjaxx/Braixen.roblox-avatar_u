@@ -14,7 +14,7 @@ async = fetch("https://avatar.roblox.com/v1/users/" + userId + "/avatar", {
 	})
 	.then(data => {
     var onText = data
-		text1 = document.getElementById("_01") 
+    text1 = document.getElementById("_01") 
     text1.innerHTML = `
     <p>${onText}</p>
     `
