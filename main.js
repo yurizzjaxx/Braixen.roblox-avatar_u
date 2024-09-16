@@ -1,4 +1,4 @@
-document.title = "Roblox Avatar";
+document.title = "Roblox Avatar"
 let text1;
 var onCrate = location.search;
 var urlCode = new URLSearchParams(onCrate)
