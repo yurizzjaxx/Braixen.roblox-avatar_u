@@ -1,10 +1,10 @@
 document.title = "Roblox Avatar"
+function main() {
 let text1;
 var onCrate = location.search;
 var urlCode = new URLSearchParams(onCrate)
 var userId = urlCode.get("userId")
 
-function main(userId) {
 
 async = fetch("https://avatar.roblox.com/v1/users/" + userId + "/avatar", {
 	method: "GET"
